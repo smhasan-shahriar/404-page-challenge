@@ -25,8 +25,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 200px; 
-  margin-bottom: 240px; 
+  margin-top: 200px;
+  margin-bottom: 240px;
 }
 
 .left-container,
@@ -35,7 +35,7 @@ body {
 }
 
 .left-container img {
-  width: 500px; 
+  width: 500px;
 }
 
 .left-container {
@@ -86,38 +86,38 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
-  .main-content{
+  .main-content {
     flex-direction: column;
-    margin-top: 80px; 
-    margin-bottom: 0; 
-
+    margin-top: 80px;
+    margin-bottom: 0;
   }
 
-  .left-container img{
+  .left-container img {
     width: 375px;
   }
 
-  .text-title{
-    font-size: 48px; 
-    margin: 40px 5px; 
+  .text-title {
+    font-size: 48px;
+    margin: 40px 5px;
   }
 
-  .left-container{
-    padding-left: 0;
+  .text-description {
     padding-right: 0;
-  }
-  .text-description{
-    padding-right: 0;
-    margin: 30px 24px 66px 0px; 
+    margin: 30px 24px 66px 0px;
   }
   .left-container,
-.right-container {
-  width: 90%;
-  text-align: left; 
-  margin-left: 24px; 
-}
+  .right-container {
+    width: 90%;
+    text-align: left;
+    margin-left: 24px;
+  }
+  .left-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -10px;
+  }
 
-.text-btn{
-  margin-bottom: 114px; 
-}
+  .text-btn {
+    margin-bottom: 114px;
+  }
 }
